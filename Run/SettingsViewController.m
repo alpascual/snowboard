@@ -126,7 +126,7 @@
         playListFeedback *playlist = [[playListFeedback alloc] init];
         [subMenu addObjectsFromArray:[playlist rerieveList]];
         item.list = subMenu;
-        item.mydescription = @"Select the playlist of music you want to play while running";
+        item.mydescription = @"Select the playlist of music you want to play while snowboarding";
         item.menuNumber = self.lastMenuSelected;
     }
     else if (self.lastMenuSelected == 1 ) {
@@ -135,7 +135,7 @@
         //[subMenu addObject:@"every 5K"];
         [subMenu addObject:@"every 5 miles"];
         item.list = subMenu;
-        item.mydescription = @"Select when you want an status of your run";
+        item.mydescription = @"Select when you want an status of your snowboarding";
         item.menuNumber = self.lastMenuSelected;
     }
     else if (self.lastMenuSelected == 2 ) {
@@ -145,7 +145,7 @@
         [subMenu addObject:@"every 30 minutes"];
         [subMenu addObject:@"every 1 hour"];
         item.list = subMenu;
-        item.mydescription = @"Select when you want an status of your run";
+        item.mydescription = @"Select when you want an status of your snowboarding";
         item.menuNumber = self.lastMenuSelected;
     }
     else if ( self.lastMenuSelected == 3 ) {
@@ -166,14 +166,14 @@
         [subMenu addObject:@"no"];
         [subMenu addObject:@"yes"];
         item.list = subMenu;
-        item.mydescription = @"If you are just walking or jogging instead of running, your iphone will vibrate";
+        item.mydescription = @"If you are going too slow the iphone will vibrate";
         item.menuNumber = self.lastMenuSelected;
     }
     else if (self.lastMenuSelected == 5 ) {
         [subMenu addObject:@"no"];
         [subMenu addObject:@"yes"];
         item.list = subMenu;
-        item.mydescription = @"If you stop running or jogging, the music will pause until you resume";
+        item.mydescription = @"If you stop snowboarding, the music will pause until you resume";
         item.menuNumber = self.lastMenuSelected;
     }
 

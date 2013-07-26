@@ -70,7 +70,7 @@
     self.picker = [[MFMailComposeViewController alloc] init];
     self.picker.mailComposeDelegate = self;
     
-    [self.picker setSubject:@"Run Analyzer Feedback!"];
+    [self.picker setSubject:@"Snowboarding Feedback!"];
     
     // Set up recipients
     NSArray *toRecipients = [NSArray arrayWithObject:@"alpascual@gmail.com"]; 

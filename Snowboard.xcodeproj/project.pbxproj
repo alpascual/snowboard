@@ -100,6 +100,7 @@
 		883262D31795F32400CAF767 /* UITableViewCell+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 883262C01795F32400CAF767 /* UITableViewCell+FlatUI.m */; };
 		883262D41795F32400CAF767 /* UIToolbar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 883262C21795F32400CAF767 /* UIToolbar+FlatUI.m */; };
 		883262D61795F3D900CAF767 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883262D51795F3D900CAF767 /* CoreText.framework */; };
+		8833EF8417A32FA400C7F8BB /* pebble_watch_1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8833EF8317A32FA400C7F8BB /* pebble_watch_1x.png */; };
 		8874B3FD14E0B57600ADA7C3 /* route61logo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8874B3FC14E0B57600ADA7C3 /* route61logo1.jpg */; };
 		8874B40514E18BE000ADA7C3 /* DetailsMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8874B40414E18BE000ADA7C3 /* DetailsMenuViewController.m */; };
 		8874B40B14E1BAF100ADA7C3 /* DetailsMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8874B40A14E1BAF100ADA7C3 /* DetailsMapViewController.m */; };
@@ -262,6 +263,7 @@
 		883262C11795F32400CAF767 /* UIToolbar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+FlatUI.h"; sourceTree = "<group>"; };
 		883262C21795F32400CAF767 /* UIToolbar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+FlatUI.m"; sourceTree = "<group>"; };
 		883262D51795F3D900CAF767 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		8833EF8317A32FA400C7F8BB /* pebble_watch_1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pebble_watch_1x.png; sourceTree = "<group>"; };
 		8874B3FC14E0B57600ADA7C3 /* route61logo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = route61logo1.jpg; sourceTree = "<group>"; };
 		8874B40314E18BE000ADA7C3 /* DetailsMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsMenuViewController.h; sourceTree = "<group>"; };
 		8874B40414E18BE000ADA7C3 /* DetailsMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsMenuViewController.m; sourceTree = "<group>"; };
@@ -623,6 +625,7 @@
 		88F76AF414D73F9C00587116 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8833EF8317A32FA400C7F8BB /* pebble_watch_1x.png */,
 				7647F34315159022007E1487 /* default.png */,
 				760F98C714FF32CE0027ED83 /* AudioFiles */,
 				8874B3FC14E0B57600ADA7C3 /* route61logo1.jpg */,
@@ -729,6 +732,7 @@
 				76F118C1151048F3007841B1 /* 50.wav in Resources */,
 				7647F34415159022007E1487 /* default.png in Resources */,
 				7619381716027FDB00CA6B47 /* Default-568h@2x.png in Resources */,
+				8833EF8417A32FA400C7F8BB /* pebble_watch_1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
