@@ -671,7 +671,7 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 			};
-			buildConfigurationList = 88F76ACD14D73EE900587116 /* Build configuration list for PBXProject "Snowboard" */;
+			buildConfigurationList = 88F76ACD14D73EE900587116 /* Build configuration list for PBXProject "snowboard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -963,7 +963,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88F76ACD14D73EE900587116 /* Build configuration list for PBXProject "Snowboard" */ = {
+		88F76ACD14D73EE900587116 /* Build configuration list for PBXProject "snowboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88F76AEF14D73EE900587116 /* Debug */,

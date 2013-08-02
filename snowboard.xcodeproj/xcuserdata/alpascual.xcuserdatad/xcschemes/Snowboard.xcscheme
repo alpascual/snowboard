@@ -15,16 +15,16 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "88F76AD214D73EE900587116"
-               BuildableName = "Run.app"
-               BlueprintName = "Run"
-               ReferencedContainer = "container:Run.xcodeproj">
+               BuildableName = "Snowboard.app"
+               BlueprintName = "Snowboard"
+               ReferencedContainer = "container:snowboard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
@@ -33,15 +33,15 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88F76AD214D73EE900587116"
-            BuildableName = "Run.app"
-            BlueprintName = "Run"
-            ReferencedContainer = "container:Run.xcodeproj">
+            BuildableName = "Snowboard.app"
+            BlueprintName = "Snowboard"
+            ReferencedContainer = "container:snowboard.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88F76AD214D73EE900587116"
-            BuildableName = "Run.app"
-            BlueprintName = "Run"
-            ReferencedContainer = "container:Run.xcodeproj">
+            BuildableName = "Snowboard.app"
+            BlueprintName = "Snowboard"
+            ReferencedContainer = "container:snowboard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88F76AD214D73EE900587116"
-            BuildableName = "Run.app"
-            BlueprintName = "Run"
-            ReferencedContainer = "container:Run.xcodeproj">
+            BuildableName = "Snowboard.app"
+            BlueprintName = "Snowboard"
+            ReferencedContainer = "container:snowboard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
