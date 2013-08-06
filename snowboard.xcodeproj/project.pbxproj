@@ -77,8 +77,6 @@
 		76F118C0151048F3007841B1 /* 40.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76F118BD151048F3007841B1 /* 40.wav */; };
 		76F118C1151048F3007841B1 /* 50.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76F118BE151048F3007841B1 /* 50.wav */; };
 		76F7C1191512F65E00C8162F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F7C1181512F65E00C8162F /* MessageUI.framework */; };
-		8808335F1794956500CF5C8D /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8808335E1794956500CF5C8D /* PebbleKit.framework */; };
-		880833611794956F00CF5C8D /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880833601794956F00CF5C8D /* PebbleVendor.framework */; };
 		880833631794A4DB00CF5C8D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880833621794A4DB00CF5C8D /* CoreBluetooth.framework */; };
 		880833651794A50000CF5C8D /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880833641794A50000CF5C8D /* ExternalAccessory.framework */; };
 		883262C31795F32400CAF767 /* FUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 883262A01795F32400CAF767 /* FUIAlertView.m */; };
@@ -308,8 +306,6 @@
 				880833651794A50000CF5C8D /* ExternalAccessory.framework in Frameworks */,
 				76F7C1191512F65E00C8162F /* MessageUI.framework in Frameworks */,
 				880833631794A4DB00CF5C8D /* CoreBluetooth.framework in Frameworks */,
-				880833611794956F00CF5C8D /* PebbleVendor.framework in Frameworks */,
-				8808335F1794956500CF5C8D /* PebbleKit.framework in Frameworks */,
 				76132D7F1511B4C700AE5FA1 /* AVFoundation.framework in Frameworks */,
 				76132D7D1511B4C000AE5FA1 /* CoreAudio.framework in Frameworks */,
 				76132D7A1511B45F00AE5FA1 /* CFNetwork.framework in Frameworks */,

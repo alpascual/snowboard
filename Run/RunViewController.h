@@ -16,7 +16,8 @@
 #import "DistanceVoiceFeedback.h"
 #import "TimeVoiceFeedback.h"
 #import "playListFeedback.h"
-#import <PebbleKit/PebbleKit.h>
+//Pebble
+//#import <PebbleKit/PebbleKit.h>
 #import "FlatUIKit.h"
 #import "UIColor+FlatUI.h"
 #import "UISlider+FlatUI.h"
@@ -32,9 +33,9 @@
 #import "FUISegmentedControl.h"
 #import "UIPopoverController+FlatUI.h"
 
-@interface RunViewController : UIViewController <PBPebbleCentralDelegate>
+@interface RunViewController : UIViewController //Pebble <PBPebbleCentralDelegate>
 {
-    PBWatch *_targetWatch;
+    //PBWatch *_targetWatch;
 }
 
 @property (nonatomic, strong) TrackingManager *trackingManager;

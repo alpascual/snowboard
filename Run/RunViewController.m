@@ -88,17 +88,18 @@
         [defaults synchronize];
     }
     
+    // Pebble
     self.pebbleSupported = NO;
     // Set up pebble
     // We'd like to get called when Pebbles connect and disconnect, so become the delegate of PBPebbleCentral:
-    [[PBPebbleCentral defaultCentral] setDelegate:self];
+    //[[PBPebbleCentral defaultCentral] setDelegate:self];
     
     // Initialize with the last connected watch:
-    [self setTargetWatch:[[PBPebbleCentral defaultCentral] lastConnectedWatch]];
+    //[self setTargetWatch:[[PBPebbleCentral defaultCentral] lastConnectedWatch]];
     
 }
 
-
+/*
 - (void)setTargetWatch:(PBWatch*)watch {
     _targetWatch = watch;
     
@@ -134,6 +135,7 @@
         }];
     }
     
+    // Pebble
     // Test if the Pebble's firmware supports AppMessages / Sports:
     [watch appMessagesGetIsSupported:^(PBWatch *watch, BOOL isAppMessagesSupported) {
         if (isAppMessagesSupported) {
@@ -152,10 +154,10 @@
     }];
     
 }
-
+*/
 
 // Pebble
-- (void)pebbleCentral:(PBPebbleCentral*)central watchDidConnect:(PBWatch*)watch isNew:(BOOL)isNew {
+/*- (void)pebbleCentral:(PBPebbleCentral*)central watchDidConnect:(PBWatch*)watch isNew:(BOOL)isNew {
     [self setTargetWatch:watch];
 }
 
@@ -165,7 +167,7 @@
         [self setTargetWatch:nil];
     }
 }
-
+*/
 
 - (void)viewDidUnload
 {
@@ -233,7 +235,9 @@
         self.playlistFeedback = [[playListFeedback alloc] init];
     
     [self.playlistFeedback playIfNeeded];
-        
+    
+    //Pebble
+    /*
     if ( _targetWatch && self.pebbleSupported == YES) {
         [_targetWatch sportsAppLaunch:^(PBWatch *watch, NSError *error) {
             if (error) {
@@ -248,7 +252,7 @@
                 NSLog(@"Pebble: Failed sending activity state: %@\n", error);
             }         
         }];
-    }
+    }*/
 }
 
 - (void) stopRun {
@@ -272,13 +276,14 @@
     
     [self.playlistFeedback stopIfNeeded];
     
-    if ( _targetWatch && self.pebbleSupported == YES) {
+    //Pebble
+    /*if ( _targetWatch && self.pebbleSupported == YES) {
         [_targetWatch sportsAppSetActivityState:SportsAppActivityStatePaused onSent:^(PBWatch *watch, NSError *error) {
             if (error) {
                 NSLog(@"Pebble: Failed sending activity state: %@\n", error);
             }
         }];
-    }
+    }*/
 }
 
 
@@ -376,7 +381,8 @@
     
     [self setupLineGraphics];
     
-    if ( self.pebbleSupported == YES) {
+    // Pebble
+    /*if ( self.pebbleSupported == YES) {
         //Send metrics to the Pebble
         NSString *stringInterval = [PBSportsUpdate timeStringFromFloat:timeInterval];
         stringInterval = [stringInterval stringByReplacingOccurrencesOfString:@"-" withString:@""];
@@ -391,7 +397,7 @@
                 NSLog(@"Pebble Failed sending update: %@\n", error);
             } 
         }];
-    }
+    }*/
 }
 
 - (void) setupLineGraphics {
@@ -440,13 +446,15 @@
 
 - (IBAction)savePressed:(id)sender {
     
+    //Pebble
+    /*
     if ( _targetWatch && self.pebbleSupported == YES) {
         [_targetWatch sportsAppSetActivityState:SportsAppActivityStateEnd onSent:^(PBWatch *watch, NSError *error) {
             if (error) {
                 NSLog(@"Pebble: Failed sending activity state: %@\n", error);
             }
         }];
-    }
+    }*/
     
     self.saveButton.hidden = YES;
     [SVStatusHUD showWithoutImage:@"Saving..."];
