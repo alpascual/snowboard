@@ -62,6 +62,8 @@
 		7647F34415159022007E1487 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7647F34315159022007E1487 /* default.png */; };
 		767A5B1717977EB800F4B4F0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767A5B1617977EB800F4B4F0 /* CoreMotion.framework */; };
 		767A5B1917977EE400F4B4F0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 767A5B1817977EE400F4B4F0 /* libz.dylib */; };
+		76B220AD17C1A20C00162AFD /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8808335E1794956500CF5C8D /* PebbleKit.framework */; };
+		76B220AE17C1A20C00162AFD /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880833601794956F00CF5C8D /* PebbleVendor.framework */; };
 		76BB0D101503E9FC00BF70FA /* TimeVoiceFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BB0D0F1503E9FC00BF70FA /* TimeVoiceFeedback.m */; };
 		76C4E34514DEECA1009AF75F /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E34314DEECA1009AF75F /* HistoryViewController.m */; };
 		76C7EFBB14E5FE18001EED6E /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C7EFBA14E5FE17001EED6E /* MyAnnotation.m */; };
@@ -300,6 +302,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B220AD17C1A20C00162AFD /* PebbleKit.framework in Frameworks */,
+				76B220AE17C1A20C00162AFD /* PebbleVendor.framework in Frameworks */,
 				767A5B1917977EE400F4B4F0 /* libz.dylib in Frameworks */,
 				767A5B1717977EB800F4B4F0 /* CoreMotion.framework in Frameworks */,
 				883262D61795F3D900CAF767 /* CoreText.framework in Frameworks */,
